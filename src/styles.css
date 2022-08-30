@@ -1,0 +1,81 @@
+.app {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0px 2rem;
+}
+
+/* Headings */
+h1 {
+  margin-bottom: 3rem;
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Containers */
+.dstr-container {
+  flex-shrink: 0;
+  margin: 20px 20px 3rem;
+  border: calc(8px + 0.2vw) solid transparent;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.simple-dstr {
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  flex-wrap: wrap;
+}
+
+.simple-dstr div {
+  margin: 0rem 0.5rem 0.5rem;
+  background-color: rgba(201, 54, 54, 0.2);
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px 0px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+/* Buttons */
+button {
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  background-image: linear-gradient(to right, #e052a0, #f15c41);
+  cursor: pointer;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 20px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-image: linear-gradient(to right, #3ec7e0, #526bf4);
+}
